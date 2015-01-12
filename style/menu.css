@@ -1,0 +1,18 @@
+
+.activeMenuItem {
+  background: #bdc0c0;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+}
+
+.menuItemSpacer {
+  float:left;
+  margin-left:3px;
+  margin-right:3px;
+}
+
+.menuItem {
+  float: left;
+  padding-right:5px;
+  padding-left:5px;
+}

@@ -1,0 +1,15 @@
+body {
+background-color: #f5f5f5;
+background-image: url("http://www.stgeorgetennis.ca/images/background.jpg");
+color: BLACK;
+font-family: "Times New Roman", Times, serif;
+margin-top: auto;
+margin-left: auto;
+}
+
+H2.emphasis {
+   font-style: italic;
+} 
+.keyword {
+   font-weight: bold;
+} 

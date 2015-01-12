@@ -1,0 +1,28 @@
+
+div.content {
+  text-align:center;
+}
+
+div.content h2 {
+  margin-bottom:20px;
+}
+
+div.content div.note {
+  margin-bottom:20px;
+}
+
+table.boardMembers {
+ margin-left:20px;
+ margin-bottom:40px;
+}
+
+div.contact, div.contact:hover {
+  background-color: #d8dcdc;
+  color: #000;
+  background:url(../images/menu/selectedTab.gif) no-repeat bottom left;
+  font-weight: bold;
+}
+
+a.contact:hover {
+  color: #000;
+}

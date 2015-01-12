@@ -1,0 +1,27 @@
+table.content {
+  margin-right:0px;
+  margin-left: 0px;
+  margin-top: 10px;
+  border-collapse: collapse
+}
+
+table.content tr td {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+table.content tr td p {
+  font-size:12px;
+  text-align:justify;
+}
+
+div.about, div.about:hover {
+  background-color: #d8dcdc;
+  color: #000;
+  background:url(../images/menu/selectedTab.gif) no-repeat bottom left;
+  font-weight: bold;  
+}
+
+a.about:hover {
+  color: #000;
+}

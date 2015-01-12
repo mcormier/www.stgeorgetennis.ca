@@ -1,0 +1,85 @@
+div.calendar, div.calendar:hover {
+  background-color: #d8dcdc;
+  color: #000;
+  background:url(../images/menu/selectedTab.gif) no-repeat bottom left;
+  font-weight: bold;
+}
+
+a.calendar:hover {
+  color: #000;
+}
+
+table.mainTable tr td.content table {
+ border: solid 1px #000;
+ margin-right:10px;
+ margin-left:10px;
+}
+
+
+/* Calendar 
+ #00eeff (blue footer)
+ #00eeff (blue dates)
+ */
+
+table.month {
+  width: 770px;
+  border-collapse: collapse;
+  border: 0px solid #000;
+  text-align: center;
+  margin-top:0px;
+}
+
+  .header {
+  border-bottom: 1px solid #000;
+  border-left 1px solid #000;
+  text-align: center;
+  margin-top:0px;
+}
+
+  .day {
+  width: 108px;
+  color: #FFF;
+  background: #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  text-align: center;
+  font-family: cambria, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top:0px;
+}
+
+  .dates {
+  color: #000;
+  background:#00eeff;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  text-align: right;
+  font-family: cambria, Arial, sans-serif;
+  font-size: 14px;
+  margin-top:0px;
+}
+
+  .info {
+  height:80px;
+  width: 108px;
+  color:#000;
+  background: #FFF;
+  border-bottom:1px solid #000;
+  border-left:1px solid #000;
+  border-right:1px solid #000;
+  font-family: cambria,sans-serif,Arial,Times New Roman;
+  font-size:12px;
+  text-align:center;
+}
+
+  .calendarFooter {
+  font-family: cambria, Arial, sans-serif;
+  font-size:12px;
+  text-align:left;
+  background:#0099ff;
+  border-bottom:1px solid #000;
+  border-left:1px solid #000;
+  border-right:1px solid #000;
+}

@@ -1,0 +1,27 @@
+
+
+
+
+.pdfBlock {
+ width:560px;
+ padding-left: 30px;
+ margin:0px auto;
+ float:left;
+ }
+
+.pdfBlock:hover {
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+  background-color: #EFEFEF;
+}
+
+.imgBlock {
+  float:left;
+}
+
+.textBlock {
+  height:70px;
+  vertical-align:middle;
+  display:table-cell;
+}

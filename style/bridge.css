@@ -1,0 +1,63 @@
+
+td.content h2, td.content h3 {
+  text-align:center;
+  margin-bottom:0px;
+}
+
+td.content h3.subtitle {
+ margin-top:0px;
+ margin-bottom:10px;
+}
+
+td.content p, td.content div {
+  text-align:center;
+}
+
+td.content div.latestResults {
+  padding-left:35%;
+  margin-top:10px;
+  margin-bottom:30px;
+  text-align: justify;
+}
+
+td.content div.answer {
+  text-align: justify;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 30px;
+}
+
+table.bridgeLinks {
+   border: solid 2px #000;  
+   width:400px;
+}
+
+table.bridgeLinks td {
+  padding:10px;
+}
+
+table.halloffame {
+   border: solid 1px #aaa;
+   margin-top:10px; 
+   margin-bottom:40px;
+   width: 600px;
+ }
+
+
+table.mainTable tr td.content {
+  padding-top:0px;
+  padding-left:0px;
+  padding-right:0px;
+  margint-left:0px;
+}
+
+div.bridge, div.bridge:hover {
+  background-color: #d8dcdc;
+  color: #000;
+  background:url(../images/menu/selectedTab.gif) no-repeat bottom left;
+  font-weight: bold;  
+}
+
+a.bridge:hover {
+  color: #000;
+}

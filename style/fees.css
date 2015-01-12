@@ -1,0 +1,154 @@
+div.membership, div.membership:hover {
+  background-color: #d8dcdc;
+  color: #000;
+  background:url(../images/menu/selectedTab.gif) no-repeat bottom left;
+  font-weight: bold;  
+}
+
+a.membershipLink:hover {
+  color: #000;
+}
+
+
+/* @group membership Table */
+
+table.membershipFeeInfo {
+  width: 220px;
+  border-collapse: collapse;
+  margin-top:40px;
+}
+
+table.membershipFeeInfo, table.membershipFeeInfo td {
+	border: 1px solid #000;
+	 margin-left:10px;
+	 padding-right:10px;
+}
+
+ table.membershipFeeInfo td {
+   padding-left:0px;
+   padding-right:0px;
+   font-size: 14px;
+ }
+ 
+ 
+ table.membershipFeeInfo td.category {   
+   text-align: right;
+   padding-right: 20px;
+   height: 30px;
+ }
+ 
+ table.membershipFeeInfo td.cost {
+   width: 60px;
+   text-align: center;
+ }
+ 
+ table.membershipFeeInfo td.agerange {
+   width: 120px;
+   text-align: center;
+ }
+ 
+ 
+ table.membershipFeeInfo td.header {
+
+   color: #FFF;
+   background: #000;
+   text-align: center;
+   font-size: 24px;
+   colspan: 2;
+   height: 60px;
+ }
+ 
+ /* @group lesson Table */
+ table.EventOverview {
+   width: 600px;
+   margin-bottom:20px;
+   margin-top:50px;
+    font-size: 20px;
+ }
+ 
+ table.EventOverview th {
+   padding-left: 10px;
+   padding-bottom: 20px;
+   text-align: left;
+ }
+ 
+ table.EventOverview td.description {
+   font-size:18px;
+   padding-bottom: 20px;
+   padding-left: 10px;
+   text-align: justify;
+ }
+
+ table.EventOverview td {
+   vertical-align: top;
+ }
+ 
+ table.EventOverview tr {
+  
+ }
+ 
+ div.EventOverview {
+ margin-top: 40px;
+   background: #FFF;
+   margin-bottom: 40px;
+ }
+ 
+ /* @group lesson Table */
+ table.lessonInfo {
+   width: 360px;
+   margin-bottom:20px;
+   margin-top:5px;
+ }
+ 
+ table.lessonInfo td.date {   
+   text-align: left;
+   padding-left: 10px;
+   width:120px;
+ }
+ 
+ table.lessonInfo td.cost {   
+   width:30px;
+ }
+ 
+ 
+ table.mainTable tr td.content {
+   padding-top: 30px;
+ }
+ 
+ /* @group Misc  */
+ 
+ div.initiation {
+   text-indent: 1.0em;
+   margin-top:40px;
+   text-align: justify;
+   margin-left: 20px;
+   margin-right: 10px;
+ }
+
+ div.legend {
+   margin-top:40px;
+   margin-bottom: 40px;
+   text-align: left;
+   margin-left: 80px;
+   font-size: 12px;
+ }
+ 
+ div.dwnldFileIcon {
+   margin-top:20px;
+   margin-bottom: 40px;
+ }
+ 
+ .panoramicImage {
+   margin-top:0px;
+   height:260px;
+   background:url(../images/membership/headerPanoramic.jpg) no-repeat bottom left;
+ }
+ 
+ .tournImage {
+   margin-top:0px;
+   height:360px;
+   background:url(../images/membership/tournie.jpg) no-repeat bottom left;
+ }
+ 
+ 
+ 

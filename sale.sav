@@ -1,0 +1,56 @@
+<?php include('phpIncludes/functions.php'); ?>
+<!DOCTYPE html>
+<html>
+
+<head>
+ <?php include 'phpIncludes/metadata.php' ?>
+
+   <link rel="stylesheet" type="text/css" href="style/board.css" />
+ </head>
+
+<body>
+<center>
+<div class="rightShadow">
+<div class="leftShadow">
+<table class="mainTable">
+   <tr>  
+      <td >
+         <?php include 'phpIncludes/header.php' ?> 
+         
+      </td>
+    </tr>
+    <tr>
+  
+<td class="content" valign="top">
+
+<div class="whiteRounded" align="Center">
+<h2>Racquets For Sale By Members</h2>
+This page is setup for St. George's members only wishing to advertise racquets  for sale. 
+Please provide as much detail as possible including a photo, sale price and contact 
+information and e-mailing it to<br>
+<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#103;&#101;&#114;&#114;&#121;&#109;&#97;&#114;&#64;&#110;&#115;&#46;&#115;&#121;&#109;&#112;&#97;&#116;&#105;&#99;&#111;&#46;&#99;&#97;">&#103;&#101;&#114;&#114;&#121;&#109;&#97;&#114;&#64;&#110;&#115;&#46;&#115;&#121;&#109;&#112;&#97;&#116;&#105;&#99;&#111;&#46;&#99;&#97;</a></div>
+
+<div class="whiteRounded" align="Center">
+Your Free Add Here
+</div>
+          
+<div class="whiteRounded" align="Center">
+Your Free Add Here
+</div>
+
+
+    </td>
+ </tr>
+
+</table>
+
+<?php include 'phpIncludes/footer.php' ?> 
+</div>
+</div>
+
+</center>
+
+  
+</body>
+
+</html>

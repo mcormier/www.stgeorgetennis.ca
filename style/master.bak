@@ -1,0 +1,326 @@
+/*
+http://www.colourlovers.com/trend/websitecolors/10177/2008/03/28/Kudocities
+
+Prime colors for color scheme
+FFFFFF (white) 
+E9EDED (light blue grey)  *
+d8dcdc (slightly darker grey)
+800818 (medium dark red -- light maroon) 
+B01220 (punchy brighter red)
+5F0413 (darkest red -- dark maroon)
+
+*/
+
+
+/* Remove browser styles */
+ {
+	margin: 0;
+	padding: 0;
+
+}
+ 
+
+body {
+margin: 0pt;
+font-family: 'Times New Roman', Times, serif;
+color: BLACK;
+background-color: #DDD;
+/* background-color: #f3e7e9; */
+/*font: normal 1em/1.5em ;*/
+font-style: normal;
+/*background-image: url(../images/main-bg.jpg);
+background-repeat: no-repeat;
+background-position-x: 50%; */
+
+
+ /*	text-align: justify;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-size:14px;
+	color: #dadabe;	
+  font: normal 12px "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;*/
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1em;
+  line-height: 1.5em;
+} 
+
+H2.emphasis {
+   font-style: italic;
+} 
+
+/* Use http://border-radius.com/  To figure out how to do rounded corners for 
+   different browsers.*/
+.whiteRounded {
+  margin-top:40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #ffffff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border:  solid 1px #d8dcdc;
+}
+
+.textPadding {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.keyword {
+   font-weight: bold;
+} 
+
+a {
+	text-decoration: none;
+	color: #003F8C;
+}
+
+a:hover
+{
+	/*color: #dadabe; */
+	text-decoration: none;
+}
+a:active {
+  text-decoration:none;
+}
+
+img {
+  border:0;
+}
+
+/* @group tables */
+
+table {
+  border:none;
+  border-collapse: collapse;  
+}
+
+table.mainTable {
+  width:770px;
+  margin:0;
+  border:none;
+  background-color: #E9EDED;
+}
+
+table.mainTable, 
+table.mainTable tr,
+table.mainTable tr td {
+  padding:0;
+}
+
+
+table.mainTable tr td.content {
+  padding-top: 0px;
+  padding-left:60px;
+  padding-right:60px;
+}
+
+table.mainTable tr td.nav {
+  width:124px;
+}
+
+div.footer {
+  background-color: #d8dcdc;
+  color: #000;
+  width: 770px;
+  margin-top:0px;
+  padding-top:20px;
+  height:180px;
+  border-top:  solid 1px #aaa;
+}
+
+div.footer p {
+  margin:0px;
+  padding-top:20px;
+  padding-bottom:20px;
+  
+}
+div.leftNav {
+  padding-top:0px;
+  background: #680200; 
+}
+
+div.sponsors, div.sponsors div {
+   /*background-color: #222; */
+}
+
+div.sponsors div.title {
+  margin-bottom:10px; 
+  font: normal 14px; letter-spacing: 8px;
+}
+
+div.sponsors div.tallAd {
+  float:left;
+  margin-left:5px;  
+}
+
+div.sponsors div.doubleBlock {
+  width:120px;
+  float:left;
+  margin-left:5px;
+  padding-top:0px;
+}
+
+div.sponsors div.doubleBlock img {
+  padding-bottom:5px;
+}
+
+/* @end group */
+
+/* @group submenu */
+
+ div.submenu {
+ height:18px;
+  margin-left:0px;
+  margin-right:0px;
+  padding-top:5px;
+  padding-bottom:5px;
+  background-color: #d8dcdc;
+  color: #000;
+  border-bottom:  solid 1px #aaa;
+  background:url(../images/menu/selectedSubMenuBackground.gif) repeat bottom left;
+}
+
+div.submenu a {
+   color: #000;
+}
+
+ div.submenu a:hover {
+  color: #555; 
+}
+
+/* @end group submenu */
+
+
+/* @group topMenu */
+
+ul.main_nav li {
+  float: left;
+  margin-left:0.1em;
+  width: 105px;
+  height: 25px;
+  padding-top: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+
+ul.main_nav li a {
+  color: #E9EDED;
+}
+/* @end group topMenu */
+
+
+/* @group bottomMenu */
+
+div.bottomMenu {
+  padding-top: 1px;
+  padding-bottom: 0px;
+  margin-left: 0px;
+  
+  background-color: #000;
+  width: 770px;
+  text-align:left; 
+  color: #fff;
+}
+
+div.bottomMenu div p {
+  margin-left: 20px;
+}
+
+
+div.bottomMenu div.navigation {
+background:url(../images/StGeorges_logov50px.gif) no-repeat;
+background-position:20px 0px;
+height: 70px;
+padding-left: 70px;
+padding-top:10px;
+margin-top:20px;
+position: relative;
+padding-bottom: 40px;
+}
+
+div.navigation p a {
+  color: #E9EDED;
+}
+
+/* @end group bottomMenu */
+
+.rightShadow{
+width: 770px;
+box-shadow: 7px 10px 8px #818181; 
+/* webkit == Safari + Chrome */
+-webkit-box-shadow: 7px 10px 8px #818181;
+/* mozilla == FireFox */
+-moz-box-shadow: 7px 10px 8px #818181; 
+}
+
+.leftShadow{
+width: 770px;
+box-shadow: 7px 10px 8px #818181; 
+/* webkit == Safari + Chrome */
+-webkit-box-shadow: -7px 10px 8px #818181; 
+/* mozilla == FireFox */
+-moz-box-shadow: -7px 10px 8px #818181; 
+/* For IE 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=8, Direction=135, Color='#818181')";
+/* For IE 5.5 - 7 */
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=8, Direction=135, Color='#818181');
+  border-left:  solid 1px #000;
+  border-right:  solid 1px #000;
+}
+
+
+.navBar {
+    margin-top: 8px;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    
+    padding-left:26px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    height: 58px;
+    width: 730px;
+    
+}
+
+.navBar div { 
+
+  margin-left: 5px;
+	float:left;	
+	line-height: 1.8em;
+	width:116px; 
+	height:26px;
+	text-indent:0;
+	text-align:center;
+	padding-top:0px;
+	padding-bottom: 0px;
+	background:url(../images/menu/unselectedTab.gif) no-repeat bottom left;
+}
+
+.menuDate {
+  font-size: 11px;
+}
+
+.navBar a  {
+    
+    text-decoration: none;
+     color: #000000;
+    /* text-shadow: 1px 1px 1px #111111; */
+}
+.navBar a:hover {
+    color: #000000;
+}
+
+.clear {
+   clear: both;
+}
+
