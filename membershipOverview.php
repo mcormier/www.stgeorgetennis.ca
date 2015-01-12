@@ -32,9 +32,11 @@ margin-bottom: 6px;
 
 
 <td class="content" valign="top" >
+
+<center>
 <div class="whiteRounded tournImage">
- 
 </div>
+</center>
 
 
 <div style="float:right;margin-left:20px">
@@ -120,8 +122,10 @@ tennis lover, whether you're a beginner or advanced player.</p>
 
 </center>
 
+<center>
 <div class="whiteRounded panoramicImage">
 </div>
+</center>
 
 <div class="whiteRounded" >
     

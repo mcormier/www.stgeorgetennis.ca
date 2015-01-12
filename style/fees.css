@@ -141,12 +141,14 @@ table.membershipFeeInfo, table.membershipFeeInfo td {
  .panoramicImage {
    margin-top:0px;
    height:260px;
+   width: 600px;
    background:url(../images/membership/headerPanoramic.jpg) no-repeat bottom left;
  }
  
  .tournImage {
    margin-top:0px;
    height:360px;
+   width:630px;
    background:url(../images/membership/tournie.jpg) no-repeat bottom left;
  }
  

@@ -6,7 +6,7 @@
 <meta name="GENERATOR" content="Microsoft FrontPage 5.0">
 <meta name="ProgId" content="FrontPage.Editor.Document">
 <?php include "phpIncludes/metadata.php"?>
-<link rel="stylesheet" type="text/css" href="Style/index.css">
+<link rel="stylesheet" type="text/css" href="style/index.css">
 <style>
     ol.tumblr_posts { list-style:none; -webkit-padding-start:0px;  
 }
